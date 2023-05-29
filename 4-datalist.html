@@ -7,7 +7,7 @@
   <body>
     <form action="/action_page" method="get">
       <label for="browser">Choose your browser from the list:</label>
-      <input list="browsers" name="browser" id="browser">
+      <input size="7" list="browsers" name="browser" id="browser">
       <datalist id="browsers">
         <option value="Edge">
         <option value="Firefox">
@@ -17,5 +17,20 @@
       </datalist>
       <input type="submit">
     </form>
+
+    <br>
+
+    <label for="ice-cream-choice">Choose a flavor:</label>
+    <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice">
+        <datalist id="ice-cream-flavors">
+          <option value="Chocolate">Chocolate</option>
+          <option value="Coconut">Coconut</option>
+          <option value="Mint">Mint</option>
+          <option value="Strawberry">Strawberry</option>
+          <option value="Vanilla">Vanilla</option>
+        </datalist>
+
+
+
   </body>
 </html>
